@@ -15,6 +15,10 @@ Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 
+"Nerd tree
+
+Plug 'preservim/nerdtree'
+
 " Formateo
 " si usamos el comando :AutoFormat se formatea el codigo.
 Plug 'chiel92/vim-autoformat'
