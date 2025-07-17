@@ -2,6 +2,8 @@
 set number
 set relativenumber
 
+set t_Co=256
+
 " Activar el mouse
 set mouse=a
 

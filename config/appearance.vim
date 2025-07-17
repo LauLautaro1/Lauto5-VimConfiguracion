@@ -2,11 +2,15 @@ syntax on
 set termguicolors
 
 set background=dark
-colorscheme dracula
+colorscheme gruvbox
 
-" Resaltar columna 80
-set colorcolumn=80
+
+highlight Normal guibg=#000000 ctermbg=16
+highlight NonText guibg=#000000 ctermbg=16
+
+"Resaltar columna 80
+set colorcolumn=150
 
 " Línea actual resaltada
-set cursorline
+"set cursorline
 

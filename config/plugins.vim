@@ -1,6 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'dracula/vim', { 'as': 'dracula' }
+"Theme
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+Plug 'morhetz/gruvbox'
 
 " Autocompletado
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -12,6 +14,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+
+" Formateo
+" si usamos el comando :AutoFormat se formatea el codigo.
+Plug 'chiel92/vim-autoformat'
 
 " Visuales
 
