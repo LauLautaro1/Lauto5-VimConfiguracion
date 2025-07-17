@@ -32,6 +32,11 @@ set noswapfile
 " Mostrar línea de estado
 set laststatus=2
 
+set listchars=tab:▸\ ,trail:·  " Mostrar tabs y espacios al final
+set list                        " Activar
+
 " Activar portapapeles del sistema (si es compatible)
 set clipboard=unnamedplus
 
+" Columna para signos (Git, LSP)
+set signcolumn=yes
